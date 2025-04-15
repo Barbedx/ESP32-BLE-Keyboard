@@ -139,7 +139,7 @@ private:
   KeyReport          _keyReport;
   MediaKeyReport     _mediaKeyReport;
   String        deviceName;
-  std::string        deviceManufacturer;
+  String         deviceManufacturer;
   uint8_t            batteryLevel;
   bool               connected = false;
   uint32_t           _delay_ms = 7;
